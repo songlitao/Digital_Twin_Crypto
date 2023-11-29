@@ -1,0 +1,16 @@
+{
+  "name": "digital_twin_crypto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lib": "node index.js",
+    "lib1": "node --max_old_space_size=4096 build/encrypt.js",
+    "lib2": "node --max_old_space_size=4096 build/decrypt.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}
